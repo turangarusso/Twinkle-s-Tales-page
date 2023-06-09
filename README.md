@@ -1,5 +1,4 @@
-https://turangarusso.github.io/Highlights-landing-page/
 
-DMCA [Protection Certificate](https://www.dmca.com/r/eeymp9y)
+DMCA [Protection Certificate](https://www.dmca.com/r/85wmdz3)
 
-![HighDMCA](https://github.com/turangarusso/Highlights-landing-page/assets/113531412/ba87dc25-2707-47fe-8f34-f252a1a38aa2)
+![DMCATwinkle](https://github.com/turangarusso/Twinkle-Tales-Privacy-policy/assets/113531412/0d9c441f-c273-4e6e-986b-c6e20080bd09)
