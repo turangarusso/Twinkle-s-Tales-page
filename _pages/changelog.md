@@ -8,15 +8,18 @@ include_in_header: true
 ### `Latest`
 
 #### What's New
-- New custom UI.
-- Custom Tab Bar.
-- New Champions and Europa League Filter.
-- Support up to iOS 15.0
-- [Changes to Privacy Policy](/privacypolicy)
+- New animated library.
+- Google ADS System.
+- New HD assets.
+- New Localization
+- Clean of all deprecated code for iOS 16
+- Support For iOS 15
 
 #### Bug Fixes
-- Minor Bug fix with some Serie A links.
-- Improved Search experience for players.
+- Minor Bug fix with prompt.
+- Fix of all View padding
+- Fix of all Modal View
+- Fix of Share System
 - [Changes to Privacy Policy](/privacypolicy)
 
 <br>
