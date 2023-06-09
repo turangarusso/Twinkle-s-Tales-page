@@ -1,0 +1,142 @@
+#page title
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1670417770                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+appstore_link                             : https://apps.apple.com/us/app/highlights/id1670417770 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :   # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Don't miss a beat, download Highlights now!
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Giovanni Mario Russo                                
+your_link                                 : https://github.com/turangarusso                    
+your_city                                 : Naples                                
+email_address                             : ruxo@live.it
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : turangarusso
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Epic Search Bar
+    description                           : Designed for instantly find match video for team or player name.
+    fontawesome_icon_name                 : search
+    
+  - title                                 : Gesture
+    description                           : Easy Filter with one tap for competitions.
+    fontawesome_icon_name                 : sort
+
+  - title                                 : Live Match
+    description                           : Watch Live Tv matches for free on Youtube.
+    fontawesome_icon_name                 : tv
+
+  - title                                 : Live Score
+    description                           : Check Live Score of all leagues.
+    fontawesome_icon_name                 : trophy
+
+  - title                                 : Scheduled mathes
+    description                           : Custom calendar with old and next scheduled matches.
+    fontawesome_icon_name                 : calendar
+
+  - title                                 : Highlights
+    description                           : Watch your favourite goals and best moments.
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : Stats
+    description                           : Show related Statistics of the match, standings and more.
+    fontawesome_icon_name                 : chart-pie
+    
+  - title                                 : Social Links
+    description                           : Share your favourite goals.
+    fontawesome_icon_name                 : share
+    
+  - title                                 : Picture in Picture
+    description                           : Watch the highlights of the match while using other apps
+    fontawesome_icon_name                 : square
+
+  - title                                 : # New Feature Title
+    description                           : # New Feature Description
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
