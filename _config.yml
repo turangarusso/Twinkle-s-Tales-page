@@ -44,6 +44,10 @@ features                                  :
   - title                                 : Share
     description                           : Share your favourite stories.
     fontawesome_icon_name                 : share
+    
+  - title                                 : Create
+    description                           : Create your custom stories with Twinkle.
+    fontawesome_icon_name                 : magic
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
